@@ -1,0 +1,9 @@
+num=int(input("Enter value:"))
+count=0
+for n in range(2,num):
+    for i in range(2,n):
+        if(n%i==0): 
+            break
+    else:
+        count=count+1
+print("Number of prime numbers between are:",count)    
